@@ -6,8 +6,10 @@ package prictise.com.myapplication.model;
  * @comment
  */
 public class JniDynamicReg {
-    static {
-        System.loadLibrary("dynamicReg");
-    }
-    public native String getDynamicRegStirng();
+
+  static {
+    System.loadLibrary("dynamicReg");
+  }
+
+  public native String getDynamicRegStirng();
 }

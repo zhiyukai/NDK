@@ -1,2 +1,0 @@
-set solib-search-path C:/self_project/As_Project/Interview/DemoNdk/app/src/main/obj/local/mips64
-directory C:/self_progress/ndk-bundle/build//../platforms/android-21/arch-mips64 C:/self_project/As_Project/Interview/DemoNdk/app/src/main/jni C:/self_progress/ndk-bundle/build//../sources/cxx-stl/system

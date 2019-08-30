@@ -22,7 +22,7 @@ android {
 //        }
         sourceSets.main.jni.srcDirs = []
         //禁止自带的ndk功能
-        sourceSets.main.jniLibs.srcDirs = ['src/main/libs','src/main/jniLibs'] // <-- 你的.so库的实际路径
+        sourceSets.main.jniLibs.srcDirs = ['src/main/libs', 'src/main/jniLibs'] // <-- 你的.so库的实际路径
 
     }
     buildTypes {
@@ -40,4 +40,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.12'
+    implementation 'junit:junit:4.12'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
 }

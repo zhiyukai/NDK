@@ -6,9 +6,12 @@ package prictise.com.myapplication.model;
  * @comment
  */
 public class JniTest {
-    static {
-        System.loadLibrary("testSo");
-    }
 
-    public native String getString();
+  static {
+    System.loadLibrary("testSo");
+  }
+
+  public native String getString();
+
+  public native String testShengCheng();
 }
